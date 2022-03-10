@@ -41,13 +41,13 @@ const UserForm = (props) => {
 
                     <div>
                         <label>Password
-                            <input type="text" className="form-control" name="password" value={password} onChange={(e) => setPassword(e.target.value)}/>
+                            <input type="password" className="form-control" name="password" value={password} onChange={(e) => setPassword(e.target.value)}/>
                         </label>
                     </div>
 
                     <div>
                         <label>Confirm Password
-                            <input type="text" className="form-control" name="confirmPassword" value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)}/>
+                            <input type="password" className="form-control" name="confirmPassword" value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)}/>
                         </label>
                     </div>
                 </div>
